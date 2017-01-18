@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.fujitsu.dc</groupId>
-	<artifactId>dc1-engine-extension-common</artifactId>
+	<groupId>io.personium</groupId>
+	<artifactId>personium-ex-base</artifactId>
 	<version>1.4.2-SNAPSHOT</version>
-	<name>dc1-engine-extension-common</name>
+	<name>personium-ex-base</name>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -13,7 +13,7 @@
 	</licenses>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<final.name>dc1-engine-extension-common</final.name>
+		<final.name>personium-ex-base</final.name>
 	</properties>
 	<profiles>
 		<profile>
