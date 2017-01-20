@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.personium</groupId>
 	<artifactId>personium-ex-base</artifactId>
-	<version>1.4.1</version>
+	<version>1.4.2-SNAPSHOT</version>
 	<name>personium-ex-base</name>
 	<licenses>
 		<license>
