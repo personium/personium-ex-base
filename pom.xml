@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.personium</groupId>
 	<artifactId>personium-ex-base</artifactId>
-	<version>1.4.2-SNAPSHOT</version>
+	<version>1.4.2</version>
 	<name>personium-ex-base</name>
 	<licenses>
 		<license>
@@ -172,8 +172,8 @@
 						<exclude>checkstyle.header</exclude>
 						<exclude>checkstyle_maven.properties</exclude>
 						<exclude>checkstyle-suppressions.xml</exclude>
-						<exclude>dc-checks.xml</exclude>
-						<exclude>dc-rulesets.xml</exclude>
+						<exclude>personium-checkstyle.xml</exclude>
+						<exclude>personium-rulesets.xml</exclude>
 						<exclude>findbugs-exclude.xml</exclude>
 						<exclude>pom.xml</exclude>
 						<exclude>logback.xml</exclude>
@@ -241,7 +241,7 @@
 				<version>2.8</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
-					<configLocation>dc-checks.xml</configLocation>
+					<configLocation>personium-checkstyle.xml</configLocation>
 					<propertiesLocation>checkstyle_maven.properties</propertiesLocation>
 				</configuration>
 				<reportSets>
@@ -270,7 +270,7 @@
 				<configuration>
 					<targetJdk>${java.version}</targetJdk>
 					<rulesets>
-						<ruleset>dc-rulesets.xml</ruleset>
+						<ruleset>personium-rulesets.xml</ruleset>
 					</rulesets>
 				</configuration>
 			</plugin>
