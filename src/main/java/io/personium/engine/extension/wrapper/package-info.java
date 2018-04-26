@@ -14,26 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.personium.engine.extension.support;
-
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.ScriptRuntime;
-
 /**
- * Extension用例外作成クラス.
+ * Extension拡張用パッケージ.
  */
-public class ExtensionErrorConstructor {
 
-    private ExtensionErrorConstructor() {
-    }
-
-    /**
-     * エラーオブジェクトを生成する.
-     * @param message エラーメッセージ
-     * @return エラーオブジェクト
-     */
-    public static EcmaError construct(String message) {
-        return ScriptRuntime.constructError("Error", message);
-    }
-
-}
+package io.personium.engine.extension.wrapper;
