@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.personium</groupId>
     <artifactId>personium-ex-base</artifactId>
-    <version>1.4.6</version>
+    <version>1.4.6-SNAPSHOT</version>
     <name>personium-ex-base</name>
     <description>Base module for implementing Personium-engine Extension.</description>
     <url>https://github.com/personium/personium-ex-base</url>
